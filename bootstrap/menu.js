@@ -1,0 +1,1 @@
+jQuery.SmartMenus.Bootstrap.init();
