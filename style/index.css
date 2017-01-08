@@ -63,7 +63,7 @@ header{
     height: 600px;
     z-index: 1;
 }
-.item{
+#MyCarousel-1 .item{
     background-image: url(../image/back-1.png);
     height: 600px;
     background-size: cover;
@@ -105,9 +105,7 @@ margin-left: 40px;
 form {
 display: flex;
 flex-direction: column;
-position: absolute;
-top: 100px;
-right: 10%;
+
 z-index: 4;
 width: 300px;
 margin: 10px;
@@ -133,12 +131,343 @@ background-color: #ec360a;
 border: none;
 margin-top: 30px;
 margin-bottom: 30px;
+opacity: 1;
 }
 .left {
-position: absolute;
-top: 12%;
-left: 10%;
+
 color: white;
 z-index: 4;
 }
+
+.block {
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    top: 20%;
+    width: 78%;
+    justify-content:space-between;
+    left: 11%;
+}
+
+.carousel-indicators li {
+border-radius: 0;
+border-color: #248f40;
+width: 15px;
+height: 15px;
+margin: 0;
+}
+
+.carousel-indicators .active {
+border-color: #248f40;
+width: 15px;
+height: 15px;
+background-color: transparent;
+}
+
+.carousel-indicators .active span {
+display: block;
+width: 9px;
+height: 9px;
+background-color: #248f40;
+margin-top: 2px;
+margin-left: 2px;
+}
+.carousel-control.left,
+.carousel-control.right {
+margin-left: 15px;
+background-image: none;
+}
+h3 {
+display: list-item;
+list-style-type: square;
+width: 350px;
+color: #248f40;
+margin: 10px auto;
+}
+
+h3 span {
+color: black;
+}
+
+.sometext {
+float: right;
+display: flex;
+}
+
+.sometext p:last-child {
+border-radius: 50%;
+background-color: silver;
+color: white;
+width: 20px;
+height: 20px;
+text-align: center;
+margin-top: 5px;
+margin-left: 5px;
+}
+
+.sometext p:first-child {
+border-bottom: 1px dashed silver;
+}
+
+.item>div>p {
+color: #248f40;
+}
+
+.window-img {
+width: 100%;
+}
+
+.img-abs {
+position: relative;
+}
+
+.img-abs img:last-of-type {
+position: absolute;
+bottom: 0;
+right: 0;
+}
+
+.flex-col>div {
+display: flex;
+justify-content: space-between;
+}
+
+.window-title {
+text-align: center;
+width: 150px;
+margin: 0 auto;
+}
+
+.button-buy {
+background-color: #248f40;
+text-align: center;
+cursor: pointer;
+}
+
+.button-buy p {
+width: 100px;
+color: white;
+}
+
+.flex-col>.button-buy>.medium20px {
+margin: 16px auto;
+}
+
+.carousel-control.right {
+right: -70px;
+height: 85px;
+width: 55px;
+background-color: silver;
+top: 40%;
+}
+
+.carousel-control.left {
+left: -70px;
+height: 85px;
+width: 55px;
+background-color: silver;
+top: 40%;
+}
+
+.glyphicon-chevron-right:before,
+.glyphicon-chevron-left:before {
+content: none;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+top: 35%;
+left: 40%;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-prev {
+top: 35%;
+right: 40%;
+}
+
+.third-section {
+background-color: black;
+position: relative;
+}
+
+.abs-img {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+}
+
+.second-sec{
+    height: 600px;
+}
+
+.third-section {
+background-color: black;
+position: relative;
+}
+
+.abs-img {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+}
+
+.third-section {
+color: white;
+}
+
+.flex-colomn {
+display: flex;
+flex-wrap: wrap;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.flex-colomn:first-of-type {
+padding: 100px 0 50px;
+}
+
+.flex-colomn div {
+display: flex;
+width: 50%;
+}
+
+.flex-colomn>div>figure {
+display: flex;
+flex-direction: column;
+width: 50%;
+}
+
+.flex-colomn>div>figure>img {
+height: 70px;
+margin: 0 auto;
+}
+
+.flex-colomn>div>figure p {
+max-width: 250px;
+margin: 0 auto;
+text-align: center;
+}
+
+.third-section>p {
+max-width: 1000px;
+margin: 55px auto 70px;
+padding-bottom: 70px;
+text-align: center;
+}
+
+.second-sec {
+height: 800px;
+}
+
+h4 {
+display: list-item;
+list-style-type: square;
+width: 300px;
+color: #248f40;
+margin: 0 auto;
+padding-top: 50px;
+}
+
+h4 span {
+color: white;
+}
+
+
+
+
+
+
+
+
+
+.bold {
+font-weight: 700;
+font-size: 45px;
+}
+
+.light {
+font-weight: 300;
+font-size: 30px;
+}
+
+.light16px {
+font-weight: 300;
+font-size: 16px;
+}
+
+.bold24px {
+font-weight: 700;
+font-size: 24px;
+}
+
+.bold20px {
+font-weight: 700;
+font-size: 20px;
+}
+
+.light30px {
+font-weight: 300;
+font-size: 35px;
+}
+
+.light36px {
+font-weight: 300;
+font-size: 36px;
+}
+
+.light20px {
+font-weight: 300;
+font-size: 20px;
+}
+
+.light18px {
+font-weight: 300;
+font-size: 18px;
+}
+
+.light15px {
+font-weight: 300;
+font-size: 15px;
+}
+
+.light14px {
+font-weight: 300;
+font-size: 14px;
+}
+
+.bold16 {
+font-weight: 700;
+}
+
+.medium26px {
+font-weight: 500;
+font-size: 26px;
+}
+
+.medium20px {
+font-weight: 500;
+font-size: 20px;
+}
+
+.semibold30px {
+font-weight: 600;
+font-size: 30px;
+}
+
+.semibold20px {
+font-weight: 600;
+font-size:
+20px;
+}
+.figure-cap p {
+    text-align: center;
+}
+
+
+
 
